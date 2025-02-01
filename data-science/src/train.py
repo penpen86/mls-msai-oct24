@@ -26,7 +26,7 @@ def parse_args():
                         help='The maximum depth of the tree. If None, then nodes are expanded until all the leaves contain less than min_samples_split samples.')
 
     args = parser.parse_args()
-
+    print("Good") 
     return args
 
 def main(args):
